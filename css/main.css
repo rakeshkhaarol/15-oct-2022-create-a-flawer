@@ -5,12 +5,12 @@
     background: white;
     margin: 100px auto;
     position: relative;
-    animation-name: pp;
+    animation-name: parent;
     animation-duration: 0.001s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-@keyframes pp{
+@keyframes parent{
     from{
         transform: rotate(0deg);
     }
