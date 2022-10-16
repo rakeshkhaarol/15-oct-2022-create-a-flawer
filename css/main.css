@@ -1,0 +1,194 @@
+/*use in id selector*/
+#p{
+    width: 500px;
+    height: 500px;
+    background: white;
+    margin: 100px auto;
+    position: relative;
+    animation-name: pp;
+    animation-duration: 0.001s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes pp{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/*
+4. Class Selector  .   (To reduce the source code)
+		
+		Syntax
+		.className{	
+				property:value;
+		}*/
+.c{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    transform-origin: right bottom;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    top: 0px;
+    left: 0px;
+    
+}
+/*Attribute Selector   []
+			
+		Syntax
+		
+		[attributeName="Value"]{
+				property:value;
+		}*/
+[data-c1="c1"]{
+   
+    background: brown;
+    transform: rotate(-2deg);
+  
+}
+/*Direct Child Selector >  
+		
+		Syntax
+		parent > child{
+			
+        }*/
+    /*classs selector*/
+    .c3{
+    background: darkgreen;
+    transform: rotate(11deg);
+}
+/*Decedent Selector
+		
+		Syntax
+		parent child{
+			
+		}*/
+#p .c4{
+    background: gold;
+    transform: rotate(22deg);
+}
+.c5{
+    background: cadetblue;
+    transform: rotate(33deg);
+}
+.c6{
+    background: tomato;
+    transform: rotate(44deg);
+}
+#p .c7{
+    background: orange;
+    transform: rotate(55deg);
+}
+#p> .c8{
+    background: dodgerblue;
+    transform: rotate(66deg);
+}
+.c9{
+    background: red;
+    transform: rotate(77deg);
+}
+.c10{
+    background: hotpink;
+    transform: rotate(88deg);
+}
+#c11{
+    background: firebrick;
+    transform: rotate(99deg);
+}
+#p #c12{
+    background: darkblue;
+    transform: rotate(110deg);
+}
+#p> #c13{
+    background: deeppink;
+    transform: rotate(121deg);
+}
+#p #c14{
+    background: indigo;
+    transform: rotate(132deg);
+}
+.c15{
+    background: chartreuse;
+    transform: rotate(143deg);
+}
+#p> .c16{
+    background: coral;
+    transform: rotate(154deg);
+}
+.c17{
+    background: fuchsia;
+    transform: rotate(165deg);
+}
+.c18{
+    background: dimgray;
+    transform: rotate(176deg);
+}
+.c19{
+    background: darkkhaki;
+    transform: rotate(187deg);
+}
+/*decedent selector*/
+#p [data-c20="c20"]{
+    background: cornflowerblue;
+    transform: rotate(198deg);
+}
+#p [data-c21="c21"]{
+    background: rebeccapurple;
+    transform: rotate(209deg);
+}
+#p [data-c22="c22"]{
+    background: limegreen;
+    transform: rotate(220deg);
+}
+#p [data-c23="c23"]{
+    background: saddlebrown;
+    transform: rotate(231deg);
+}
+#p [data-c24="c24"]{
+    background: cyan;
+    transform: rotate(242deg);
+}
+#p [data-c25="c25"]{
+    background: crimson;
+    transform: rotate(253deg);
+}
+.c26{
+    background: magenta;
+    transform: rotate(264deg);
+}
+.c27{
+    background: navy;
+    transform: rotate(275deg);
+}
+.c28{
+    background: midnightblue;
+    transform: rotate(286deg);
+}
+.c29{
+    background: mediumorchid;
+    transform: rotate(297deg);
+}
+.c30{
+    background: maroon;
+    transform: rotate(308deg);
+}
+.c31{
+    background: mediumspringgreen;
+    transform: rotate(319deg);
+}
+.c32{
+    background: yellow;
+    transform: rotate(330deg);
+}
+.c33{
+    background: wheat;
+    transform: rotate(343deg);
+}
+.c34{
+    background: blue;
+    transform: rotate(358deg);
+}
